@@ -91,11 +91,11 @@ public class BulletController : MonoBehaviour, IApplyDamage
         }
         else if (Screen.orientation == ScreenOrientation.LandscapeRight)
         {
-            orientation = 2;
+            orientation = 1;
         }
         else if (Screen.orientation == ScreenOrientation.LandscapeLeft)
         {
-            orientation = 1;
+            orientation = 2;
 
         }
         else

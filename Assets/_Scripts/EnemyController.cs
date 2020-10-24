@@ -111,9 +111,9 @@ public class EnemyController : MonoBehaviour
 
             orientationCheck = orientation;
         }
-        else if (Screen.orientation == ScreenOrientation.LandscapeRight)
+        else if (Screen.orientation == ScreenOrientation.LandscapeLeft)
         {
-            orientation = 2;
+            orientation = 1;
 
             if (orientationCheck != orientation)
             {
@@ -124,9 +124,9 @@ public class EnemyController : MonoBehaviour
 
             orientationCheck = orientation;
         }
-        else if (Screen.orientation == ScreenOrientation.LandscapeLeft)
+        else if (Screen.orientation == ScreenOrientation.LandscapeRight)
         {
-            orientation = 1;
+            orientation = 2;
 
             if (orientationCheck != orientation)
             {

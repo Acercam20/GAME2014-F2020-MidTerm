@@ -226,7 +226,7 @@ public class PlayerController : MonoBehaviour
 
             orientationCheck = orientation;
         }
-        else if (Screen.orientation == ScreenOrientation.LandscapeRight)
+        else if (Screen.orientation == ScreenOrientation.LandscapeLeft)
         {
             orientation = 2;
 
@@ -239,7 +239,7 @@ public class PlayerController : MonoBehaviour
 
             orientationCheck = orientation;
         }
-        else if (Screen.orientation == ScreenOrientation.LandscapeLeft)
+        else if (Screen.orientation == ScreenOrientation.LandscapeRight)
         {
             orientation = 1;
 
